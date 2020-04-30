@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Notes</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+  <body>
+      <h1>Notes</h1>
+      <h2>Chapter 2 - Programming Basics</h2>
+      <ul>
+          <li>Each statement in JS ends with a newline or with a semicolon. Colons will be automatically added if forgotten.</li>
+          <li>JS has 7 different data types: String, Symbol, Number, Boolean, Undefined, Null.</li>
+          <li>The 'typeof' operator finds out the type of a value.</li>
+          <li>'const' and 'let' are used to declare variables. Const indicates that a variable will not be reassigned or changed, whereas Let indicates the variable may be reassigned at some point.</li>
+          <li>Blocks are considered the code between curly braces {}.</li>
+          <li>Variables declared outside of a block are considered Global Variables. These should be limited.</li>
+          <li>A variable declared within a block without 'const' or 'let' has a global scope.</li>
+          <li>Variable names that begin with an underscore generally denote a private property or method.</li>
+          <li>A method is an action that a primitive data type or object can perform. It is called using the dot operator and ends in parentheses. Example: name.toUpperCase();</li>
+          <li>Nan is an error that indicates the result is not a number.</li>
+          <li>A string can be converted to a number with the Number() method. Ex: Number('10'). If a string cannot be converted such as 'hello' then the result is NaN. Another method is to multiply the string by 1 since the result will be a number.</li>
+          <li>A number can be converted into a string with the String() method. Ex: String(3).</li>
+          <li>The parseInt() method can be used to convert a string representation of a numerical number back into a number.</li>
+      </ul>
+
+      <h2>Chapter 3 - Arrays, Logic, & Loops</h2>
+      <ul>
+          <li>An array is an ordered list of values. Ex: const myArray = [].</li>
+          <li>An array can hold a variety of different data types.</li>
+          <li>The delete operator will remove an item from an array. Ex: delete myArray[3]. The value is not deleted but rather replaces with the 'undefined' value.</li>
+          <li>The length of an array can be found using the length property. Ex: myArray.length</li>
+          <li>To remove the last item on an array use the pop() method.</li>
+          <li>The shift() method removes the first item in the array.</li>
+          <li>The concat() method can be used to merge an array with one or more arrays.</li>
+          <li>The join() method can be used to turn the array into a string that comprises all the items in the array, separated by commas.</li>
+          <li>The slice() method creates a subarray.</li>
+          <li>The splice() method removes items from an array then inserts new items in their place.</li>
+          <li>The reverse() method reverses the order of an array.</li>
+          <li>The sort() method sorts the order of the array.</li>
+          <li>We can find out if an array contains a particular value using the indexOf() method to find the first occurrence of a value in an array.</li>
+          <li>A set is a data structure that represents a collection of unique values, so it cannot include any duplicate values. Ex: const list = new Set();</li>
+          <li>The add() method adds values to a set.</li>
+          <li>Maps are used to store data in key-value pairs.</li>
+      </ul>
+
+      <h2>Chapter 4 - Functions</h2>
+      <ul>
+          <li>The function declaration is used to declare a function. Ex: function myFunction()</li>
+      </ul>
+
+      <h2>Questions</h2>
+      <ul>
+          <li>Is there a way to completely remove an item from an array using the delete operator without it being replaced with the 'undefined' value?</li>
+      </ul>>
+  </body>
+</html>
